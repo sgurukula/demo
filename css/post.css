@@ -1,0 +1,34 @@
+.post
+{
+    display: flex;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    margin: 0.5rem;
+    align-items: center;
+    box-shadow: 0 0 0.8rem #e1e1e1;
+}
+
+.post_thumbnail
+{
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    width: 50px;
+    height: 50px;
+    background-color: #e1e1e1;
+}
+.post_text
+{
+    display: flex;
+    flex-direction: column;
+}
+.post_title
+{
+    color: black;
+    padding: 0.5rem;
+}
+.post_date
+{
+    padding: 0 0.5rem 0.5rem 0.5rem;
+    font-size: 0.8rem;
+    color: #3f3f3f;
+}
